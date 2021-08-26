@@ -1,0 +1,135 @@
+.block {
+    text-align: center;
+    /*background-color: rgb(195, 215, 236);*/
+    background: url('../resources/bg.png') no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logButton{
+    background: url('../resources/login_bg.png') no-repeat;
+    width:485px;
+    height:409px;
+    position:absolute;
+    top:33%;
+    right:120px;
+  }
+  .logButton2{
+    position:relative;
+    width:100%;
+    height:100%
+  }
+  .logButton3{
+    position:absolute;
+    top:20px;
+    left:186.5px;
+    font-size:28px;
+    color:#E8F0FF;
+  }
+  .logButton4{
+    position:absolute;
+    top:119px;
+    left:28px;
+    width:422px;
+    height:55px;
+    background:#ffffff; 
+    /*filter:alpha(opacity:60); */
+    opacity:0.6;
+  }
+  
+  .logButton5{
+    background: url('../resources/user.png') no-repeat;
+    width:27px;
+    height:55px;
+    padding:0 34px 0 14px;
+    background-position:center;
+  }
+  .logButton6{
+    width:367px;
+    height:55px;
+    border:none;
+    outline: medium;
+    background:none;
+    font-size:22px;
+    color:#474747;
+    line-height:55px;
+  }
+  .logButton7{
+    position:absolute;
+    top:197px;
+    left:28px;
+    width:422px;
+    height:55px;
+    background:#ffffff; 
+    /*filter:alpha(opacity:"60");*/
+    opacity:0.6;
+  }
+  .logButton8{
+    background: url('../resources/password.png') no-repeat;
+    width:27px;
+    height:55px;
+    padding:0 34px 0 14px;
+    background-position:center;
+  }
+  .logButton9{
+    width:367px;
+    height:55px;
+    border:none;
+    background:none;
+    outline: medium;
+    font-size:22px;
+    color:#474747;
+    line-height:55px;
+  }
+  .logButton10{
+    position:absolute;
+    top:278px;
+    left:28px;
+    width:422px;
+    height:55px;
+  }
+  .logButton11{
+    cursor:pointer;
+    background: url('../resources/login.png') no-repeat;
+    width:422px;
+    height:55px;
+    border:none;
+  }
+  .logButton12{
+    position:absolute;
+    top:340px;
+    left:28px;
+    width:422px;
+    height:55px;
+  }
+  .logButton13{
+    width:422px;
+    height:55px;
+    text-align:center;
+    font-size:22px
+  }
+  /* The ghost, nudged to maintain perfect centering */
+  .block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+  }
+  
+  /* The element to be centered, can
+     also be of any width and height */ 
+  .centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+  }
+  .ant-btn-primary {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    /* width: 100%!important; */
+}
+.ant-checkbox-wrapper{
+  float: left;
+}

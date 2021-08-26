@@ -1,0 +1,13 @@
+
+.addspan{
+    border-width: 1px;
+    border-color: #c5b9b9;
+    border-style: dashed;
+    text-align: center;
+    width: 100%;
+}
+.allbtn{
+    border-style: none; 
+    background: none;
+    border:none; 
+}
